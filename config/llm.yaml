@@ -1,0 +1,2 @@
+model: commentary-model
+api_key_file: /etc/statement-commentary/openrouter.key
