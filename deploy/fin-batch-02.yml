@@ -1,0 +1,4 @@
+- hosts: fin-batch-02
+  tasks:
+    - name: Remove the local OpenRouter key (RGB-112)
+      file: {path: /etc/statement-commentary/openrouter.key, state: absent}
